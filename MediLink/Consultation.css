@@ -1,0 +1,66 @@
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+/* Navigation */
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    padding: 10px 0px;
+}
+
+.body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+/* Container for the main content */
+ .consultation-container {
+    width: 500px;
+    height: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 5px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Form Styles */
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="date"],
+textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+button[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .appointment-container {
+        width: 90%;
+    }
+}
+
+

@@ -1,0 +1,38 @@
+
+.help{
+  width: 100px;
+  height: 100px;
+}
+
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+/*Navigation*/
+  header a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 10px ;
+}
+section {
+    padding: 20px;
+    background-color: #b2ebf2; /* Lighter blue for sections */
+    margin: 10px 0; /* Space between sections */
+    border-radius: 5px; /* Rounded corners */
+}
+
+ kenya {
+       background: #22a5b3;
+       padding: 20px
+       ;
+}
+
+
+
+
+
+
+

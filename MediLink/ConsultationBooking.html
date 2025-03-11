@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Medilink Consultation Form</title>
+  <link rel="stylesheet" href="Consultation.css">
+</head>
+<header>
+  <h1>Book Your Medilink Consultation by filling up the spaces below.</h1>
+   <nav>
+ <a href="Tele.html">Back to Home Page</a>
+  </nav>
+</header>
+  
+<body>
+  <div class="consultation-container">
+    
+<center>
+  <form action="submit.php" method="post">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+    <br>    <br>    <br>    <br>    <br>
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    
+    <br>    <br>    <br>   <br>    <br>
+   
+    <label for="phone">Phone Number:</label>
+    <input type="tel" id="phone" name="phone" required>
+
+    <br>    <br>    <br>    <br>    <br>
+    
+    <label for="date">Appointment Date:</label>
+    <input type="date" id="date" name="date" required>
+    <br>    <br>    <br>    <br>    <br>
+
+    <label for="time">Appointment Time:</label>
+    <input type="time" id="time" name="time" required>
+    <br>    <br>    <br>   <br>    <br>    <br>
+
+    <label for="doctor">Choose Doctor:</label>
+    <select id="doctor" name="doctor" required>
+      <option value="Dr. Smith">Dr. Smith</option>
+      <option value="Dr. Patel">Dr. Patel</option>
+      <option value="Dr. Kim">Dr. Kim</option>
+    </select>
+    <br>    <br>    <br>    <br>    <br>    <br>
+<p>Describe how you are feeling in the message box below.</p>
+    <label for="message">Message:</label>
+    <textarea id="message" name="message"></textarea>
+
+    <br>    <br>    <br>
+    <input type="submit" value="Book Appointment">
+    
+  </form>
+  </div>
+</body>
+
+</center>
+
+</html>

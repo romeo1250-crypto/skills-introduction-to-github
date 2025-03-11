@@ -1,0 +1,16 @@
+/medilink
+  ├── Tele.html
+  ├── signup.html
+  ├── login.html
+  ├── consultation.html
+  ├── emergency.html
+  ├── medilink images
+  │     └── Facebook logo
+        └──instagram logo
+  ├── 
+  
+  ├── /css
+  │     └── styles.css
+  │     └── styles.css
+  └── /js
+        └── scripts.js

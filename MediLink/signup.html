@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<header>
+        <img src="images/1.png">
+        <h1>Sign Up Page</h1>
+   <nav>
+      <a href="Tele.html">Back to Home Page.</a>
+  </nav>
+</header>
+  <br>
+    <center> <div class="dropzone-container">
+    <dropzone><img class="imgicon"   src="images/imageicon.png">
+      <strong>upload your photo</strong></dropzone>
+    </div>
+ </center> 
+    <br><br>
+<body>
+    <div class="signup-container">
+        <form>
+
+            <p><label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required></p>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" required><br><br>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>                    <span id="toggle-password" class="toggle-icon">👁️</span>
+                <br>
+
+            <label for="confirm-password">Confirm Password:</label>
+            <input type="password" id="confirm-password" name="confirm-password" required><br>
+
+            <center><button id="submit">Sign Up</button></center><br>
+            <p>Already have a <strong>MediLink</strong> account? <br><u><a href="login.html">Log In.</a></u></p><br><br>
+           
+        </form>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br>
+<center>
+    <footer> 
+    	<br>
+       All rights reserved.&copy; 2025 @medilink.com
+    </footer>
+
+</center>
+</body>
+
+
+
+
+<style>
+
+</style>
+
+  <script>
+    
+    const submit = document.getElementById('login-button');
+
+    submit.addEventListener('click', () => {
+      // Disable the button and change text
+      submit.disabled = true;
+      submit.textContent = 'Logging in...';
+
+      // Simulate login process (replace with your actual logic)
+      setTimeout(() => {
+        // Enable the button and reset text
+        submit.disabled = false;
+        submit.textContent = 'Login';
+
+        // Handle login success or failure based on your actual logic
+        if (/* submit successful */) {
+          console.log('Signup successful!');
+          // Redirect to the desired page or perform other actions
+        } else {
+          console.log('SignUp failed');
+          // Display an error message to the user
+        }
+      }, 2000); // Simulate a 2-second delay
+    });
+  </script>
+
+</html>
+
+

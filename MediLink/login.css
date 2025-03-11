@@ -1,0 +1,91 @@
+
+/* login.css */
+
+
+
+  img {
+
+        width: 135px;
+        height: 135px;
+        position: relative;
+        border-radius: 50%;
+        } 
+
+
+.signup-container {
+  width: 400px;
+  height: 550px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 50px 50px;
+  padding: 40%;
+}
+
+
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 5px;
+  display: block;
+}
+
+input {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #007BFF;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+p {
+  text-align: center;
+  margin-top: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+
+        
+  /*footer styling*/
+   footer{
+     padding: 10px;
+     color: white;
+     background-color: #007BFF;
+     height: 50px;
+     width: 100%;
+   }
+   
+   
+   
+   
+   
